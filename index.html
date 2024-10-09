@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Marie Lenvik</title>
 </head>
 <body>
     <header>
-        <img src="marie.jpg" alt="Bild på Marie" loading="lazy" width="400" height="450"/> <!--Jag får felmeddelande i valideringen på att jag gör bildtaggen självstängande. Varför?-->
+        <img src="marie.jpg" alt="Bild på Marie iförd mössa i snöfall" loading="lazy" width="400" height="450">
         <hgroup>
             <h1>CV</h1>
             <p>Marie Lenvik</p>
@@ -17,59 +17,54 @@
     
     <main>
         <h3>Arbetslivserfarenhet</h3>
-        <table>
-            <tr>
-                <th>Arbetsgivare</th>
-                <th>Arbetsbeskrivning</th>
-                <th>Period</th>
-            </tr>
-            <tr>
-                <td>3GIS AB</td>
-                <td>Drivetest</td>
-                <td>2009-2011</td>
-            </tr>
-            <tr>
-                <td>Huawei AB</td>
-                <td>Drivetest</td>
-                <td>2012</td>
-            </tr>
-            <tr>
-                <td>Hi3G Access AB</td>
-                <td>Radio Network Consultant</td>
-                <td>2013-nuvarnade</td>
-            </tr>
-        </table>
-
-        <h3>Utbildning</h3>
-        <table>
-            <tr>
-                <th>Utbildning</th>
-                <th>Lärosäte</th>
-                <th>Period</th>
-            </tr>
-            <tr>
-                <td>IT och kommunikation</td>
-                <td>Stockholms Universitet</td>
-                <td>2004-2007</td>
-            </tr>
-            <tr>
-                <td>Människa datorinteraktion</td>
-                <td>KTH</td>
-                <td>2007-2008</td>
-            </tr>
-            <tr>
-                <td>Frontend utvecklare</td>
-                <td>Medieinstitutet</td>
-                <td>Pågående</td>
-            </tr>
-        </table>
+        <article>
+            <h4>Arbetsgivare</h4>
+            <p>Arbetsbeskrivning</p>
+            <p>Period</p>
+        </article>
+        <article>
+            <h4>3GIS AB</h4>
+            <p>Drivetest</p>
+            <p>2009-2011</p>
+        </article>
+        <article>
+            <h4>Huawei AB</h4>
+            <p>Drivetest</p>
+            <p>2012</p>
+        </article>
+        <article>
+            <h4>Hi3G Access AB</h4>
+            <p>Radio Network Consultant</p>
+            <p>2013-nuvarnade</p>
+        </article>
+        
+        <h3>Utbildning</h3>       
+        <article>
+            <h4>Utbildning</h4>
+            <p>Lärosäte</p>
+            <p>Period</p>
+        </article>
+        <article>
+            <h4>IT och kommunikation</h4>
+            <p>Stockholms Universitet</p>
+            <p>2004-2007</p>
+        </article>
+        <article>
+            <h4>Människa datorinteraktion</h4>
+            <p>KTH</p>
+            <p>2007-2008</p>
+        </article>
+        <article>
+            <h4>Frontend utvecklare</h4>
+            <p>Medieinstitutet</p>                    
+            <p>Pågående</p>
+        </article>
     </main>
 
     <aside>
         <div>
             <blockquote>
-                <p>"Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating."
-                </p>
+                <p>"Design is really an act of communication, which means having a deep understanding of the person with whom the designer is communicating."</p>
             </blockquote>
             <p>- Donald A Norman</p>
         </div>
@@ -78,25 +73,30 @@
         <ul>
             <li>B körkort</li>
             <li>Språk: Svenska, Engelska</li>
-          </ul> 
+        </ul> 
     </aside>
 
     <section>
         <h3>Kontakta mig direkt</h3>
         <form>
-            Ditt namn:<input type="text"><br>
-            Din e-postadress:<input type="text"><br>
+            Ditt namn:<br>
+            <input type="text"><br>
+            Din e-postadress:<br>
+            <input type="text"><br>
             Meddelande:<br>
-            <textarea name="meddelande"></textarea> <br>
-            <button>Skicka meddelande</button>
-            </form>
+            <textarea name="meddelande"></textarea><br>
+            <input type="submit" value="Skicka meddelande">
+        </form>
     </section>
 
     <footer>
         <h3>Kontaktuppgifter</h3>
-        <address>Eklångsvägen<br>
-        Stockholm, Årsta</address>
-        <p>Telefon: 073-0000000</p>
+        <address>
+            Eklångsvägen<br>
+            Stockholm, Årsta<br>
+            <a href="mailto:lenvik.marie@gmail.com">lenvik.marie@gmail.com</a><br>
+            <a href="tel:+46739697927">0739697927</a>
+        </address>
     </footer>
 </body>
 </html>
