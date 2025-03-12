@@ -1,4 +1,5 @@
-# Kurs: HTML och CSS i utbildningen till Frontend developer på Medieinstitutet
+# Kurs: HTML och CSS
+## Utbildning till Frontend developer på Medieinstitutet
 Detta var den första uppgiften på Medieinstitutet. Uppgiften var att skapa en CV mall med korrekta html-taggar. <br>
 **OBS! Bara HTML!**
 
